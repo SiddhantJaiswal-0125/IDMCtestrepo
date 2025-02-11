@@ -1,0 +1,75 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>3Ubbf5ZK0CYybds-gt-1618726-2025-02-07T07:19:28.76Z::pd.xml</types1:EntryId>
+      <types1:Name>TestProcess</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>infasidjaiswal</types1:CreatedBy>
+      <types1:CreationDate>2025-02-07T07:19:29Z</types1:CreationDate>
+      <types1:ModifiedBy>infasidjaiswal</types1:ModifiedBy>
+      <types1:ModificationDate>2025-02-07T11:23:19Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>infasidjaiswal</types1:PublishedBy>
+      <types1:PublicationDate>2025-02-07T11:23:26Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.TestProcess/TestProcess.pd.xml</types1:PublishedContributionId>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  GUID="8syJXFpCqkoebuERodhWsf"
+                  displayName="TestProcess"
+                  name="TestProcess"
+                  overrideAPIName="false"
+                  processNamespace="urn:screenflow:process:">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <input>
+               <parameter description="" name="input" required="false" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+            </input>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="none">
+               <rest>
+                  <allowAnonymousAccess/>
+                  <cors>
+                     <allowed>
+                        <origins>*</origins>
+                        <methods>ALL_METHODS</methods>
+                     </allowed>
+                  </cors>
+               </rest>
+            </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyStringAsNull">true</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">true</nvpair>
+               <nvpair name="treatEmptyObjectListAsNotArray">false</nvpair>
+            </extData>
+            <flow id="g77272957-a3d0-49b6-8842-3e48bd809470">
+               <start id="q856fe143-99f8-471c-abef-97b5e560ad2c">
+                  <link id="x478a0734-74dc-4727-af79-ceccf571080b"
+                        targetId="a18syJXFpCqkoebuERodhWsf-end-c506d3dca-cabf-4cdf-b1bb-4bebe921a045"/>
+               </start>
+               <end id="a18syJXFpCqkoebuERodhWsf-end-c506d3dca-cabf-4cdf-b1bb-4bebe921a045">
+                  <title>End</title>
+               </end>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>8syJXFpCqkoebuERodhWsf</types1:GUID>
+      <types1:DisplayName>TestProcess</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2025-02-11T09:46:43.643Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
